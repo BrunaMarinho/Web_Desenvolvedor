@@ -18,3 +18,10 @@ console.log(soma(5,2))
 const imprimir = teste => console.log(teste)
 
 imprimir('AULA DE JS')
+
+//OPERADOR ternário:
+
+const resultado = nota => nota>=7? 'Aporvado' : 'Reprovado'
+
+console.log(resultado(6))
+
